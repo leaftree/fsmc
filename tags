@@ -1,0 +1,400 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+$	tags	/^LOG_ERR	log.h	\/^	LOG_ERR     = 0,$\/;"	e	enum:log_level$/;"	v
+$	tags	/^LOG_WARNING	log.h	\/^	LOG_WARNING = 2,$\/;"	e	enum:log_level$/;"	v	typeref:enum:
+AUTO	third/dbug/dbug.c	182;"	d	file:
+AUTOS_REVERSE	third/dbug/dbug.c	204;"	d	file:
+BOOLEAN	third/dbug/dbug.c	/^typedef int BOOLEAN;$/;"	t	file:
+BOOLEAN	third/dbug/dbug.c	173;"	d	file:
+BaseName	third/dbug/dbug.c	/^BaseName(const char *pathname)$/;"	f	file:	signature:(const char *pathname)
+BaseName	third/dbug/dbug.c	/^static char *BaseName(const char *pathname);$/;"	p	file:	signature:(const char *pathname)
+CODE_STATE	third/dbug/dbug.c	/^CODE_STATE;$/;"	t	typeref:struct:st_code_state	file:
+ChangeOwner	third/dbug/dbug.c	/^ChangeOwner(char *pathname)$/;"	f	file:	signature:(char *pathname)
+ChangeOwner	third/dbug/dbug.c	/^static void ChangeOwner(char *pathname);$/;"	p	file:	signature:(char *pathname)
+ChangeOwner	third/dbug/dbug.c	365;"	d	file:
+Clock	third/dbug/dbug.c	/^Clock()$/;"	f	file:	signature:()
+Clock	third/dbug/dbug.c	/^static unsigned long Clock(void);$/;"	p	file:	signature:(void)
+CloseFile	third/dbug/dbug.c	/^CloseFile(FILE * fp)$/;"	f	file:	signature:(FILE * fp)
+CloseFile	third/dbug/dbug.c	/^static void CloseFile(FILE * fp);$/;"	p	file:	signature:(FILE * fp)
+Connection	driver_loader.c	/^int Connection(int a, int b)$/;"	f	signature:(int a, int b)
+DBUGOpenFile	third/dbug/dbug.c	/^DBUGOpenFile(const char *name, int append)$/;"	f	file:	signature:(const char *name, int append)
+DBUGOpenFile	third/dbug/dbug.c	/^static void DBUGOpenFile(const char *name, int append);$/;"	p	file:	signature:(const char *name, int append)
+DBUG_DUMP	third/dbug/dbug.h	125;"	d
+DBUG_DUMP	third/dbug/dbug.h	147;"	d
+DBUG_ENTER	third/dbug/dbug.h	111;"	d
+DBUG_ENTER	third/dbug/dbug.h	136;"	d
+DBUG_EXECUTE	third/dbug/dbug.h	117;"	d
+DBUG_EXECUTE	third/dbug/dbug.h	139;"	d
+DBUG_FILE	third/dbug/dbug.h	122;"	d
+DBUG_FILE	third/dbug/dbug.h	144;"	d
+DBUG_IN_USE	third/dbug/dbug.h	126;"	d
+DBUG_IN_USE	third/dbug/dbug.h	148;"	d
+DBUG_LEAVE	third/dbug/dbug.h	114;"	d
+DBUG_LONGJMP	third/dbug/dbug.h	124;"	d
+DBUG_LONGJMP	third/dbug/dbug.h	146;"	d
+DBUG_OFF	third/dbug/dbug.c	95;"	d	file:
+DBUG_OFF	third/dbug/doc/main.c	2;"	d	file:
+DBUG_ON	third/dbug/doc/example.c	8;"	d	file:
+DBUG_POP	third/dbug/dbug.h	120;"	d
+DBUG_POP	third/dbug/dbug.h	142;"	d
+DBUG_PRINT	third/dbug/dbug.h	118;"	d
+DBUG_PRINT	third/dbug/dbug.h	140;"	d
+DBUG_PROCESS	third/dbug/dbug.h	121;"	d
+DBUG_PROCESS	third/dbug/dbug.h	143;"	d
+DBUG_PUSH	third/dbug/dbug.h	119;"	d
+DBUG_PUSH	third/dbug/dbug.h	141;"	d
+DBUG_RETURN	third/dbug/dbug.h	115;"	d
+DBUG_RETURN	third/dbug/dbug.h	137;"	d
+DBUG_SETJMP	third/dbug/dbug.h	123;"	d
+DBUG_SETJMP	third/dbug/dbug.h	145;"	d
+DBUG_VOID_RETURN	third/dbug/dbug.h	116;"	d
+DBUG_VOID_RETURN	third/dbug/dbug.h	138;"	d
+DBUG_my_pthread_mutex_lock_FILE	third/dbug/dbug.h	129;"	d
+DBUG_my_pthread_mutex_lock_FILE	third/dbug/dbug.h	151;"	d
+DBUG_my_pthread_mutex_unlock_FILE	third/dbug/dbug.h	130;"	d
+DBUG_my_pthread_mutex_unlock_FILE	third/dbug/dbug.h	152;"	d
+DB_CONNECTION	driver_loader.h	16;"	d
+DB_DISCONNECTION	driver_loader.h	17;"	d
+DEBUGGER_OFF	third/dbug/dbug.h	127;"	d
+DEBUGGER_OFF	third/dbug/dbug.h	149;"	d
+DEBUGGER_ON	third/dbug/dbug.h	128;"	d
+DEBUGGER_ON	third/dbug/dbug.h	150;"	d
+DEBUGGING	third/dbug/dbug.c	160;"	d	file:
+DEBUG_ON	third/dbug/dbug.c	148;"	d	file:
+DEFAULT_ANNOTATOR	config.h	35;"	d
+DEFAULT_SEPARATOR	config.h	31;"	d
+DEPTH_ON	third/dbug/dbug.c	151;"	d	file:
+DateStamp	third/dbug/dbug.c	/^struct DateStamp$/;"	s	file:
+DateStamp::ds_Days	third/dbug/dbug.c	/^	long ds_Days;					   \/* is incredibly ugly without splitting this *\/$/;"	m	struct:DateStamp	file:	access:public
+DateStamp::ds_Minute	third/dbug/dbug.c	/^	long ds_Minute;					   \/* off into a separate file *\/$/;"	m	struct:DateStamp	file:	access:public
+DateStamp::ds_Tick	third/dbug/dbug.c	/^	long ds_Tick;$/;"	m	struct:DateStamp	file:	access:public
+DbugExit	third/dbug/dbug.c	/^DbugExit(const char *why)$/;"	f	file:	signature:(const char *why)
+DbugExit	third/dbug/dbug.c	/^static void DbugExit(const char *why);$/;"	p	file:	signature:(const char *why)
+DbugMalloc	third/dbug/dbug.c	/^DbugMalloc(int size)$/;"	f	file:	signature:(int size)
+DbugMalloc	third/dbug/dbug.c	/^static char *DbugMalloc(int size);$/;"	p	file:	signature:(int size)
+Delay	third/dbug/dbug.c	/^Delay(int ticks)$/;"	f	file:	signature:(int ticks)
+Delay	third/dbug/dbug.c	/^IMPORT int Delay();					   \/* Pause for given number of ticks *\/$/;"	p	file:	signature:()
+Delay	third/dbug/dbug.c	/^static int Delay(int ticks);$/;"	p	file:	signature:(int ticks)
+Delay	third/dbug/dbug.c	373;"	d	file:
+DelayArg	third/dbug/dbug.c	/^DelayArg(int value)$/;"	f	file:	signature:(int value)
+DelayArg	third/dbug/dbug.c	/^static int DelayArg(int value);$/;"	p	file:	signature:(int value)
+Descriptor	test.ini	/^Descriptor = driver for mysql # abc$/;"	v
+DisConnection	driver_loader.c	/^int DisConnection(int a, int b)$/;"	f	signature:(int a, int b)
+DoPrefix	third/dbug/dbug.c	/^DoPrefix(uint _line_)$/;"	f	file:	signature:(uint _line_)
+DoPrefix	third/dbug/dbug.c	/^static void DoPrefix(uint line);$/;"	p	file:	signature:(uint line)
+DoProfile	third/dbug/dbug.c	/^DoProfile()$/;"	f	file:	signature:()
+DoProfile	third/dbug/dbug.c	/^static BOOLEAN DoProfile(void);$/;"	p	file:	signature:(void)
+DoTrace	third/dbug/dbug.c	/^DoTrace(CODE_STATE * state)$/;"	f	file:	signature:(CODE_STATE * state)
+DoTrace	third/dbug/dbug.c	/^static BOOLEAN DoTrace(CODE_STATE * state);$/;"	p	file:	signature:(CODE_STATE * state)
+EOS	third/dbug/dbug.c	131;"	d	file:
+ERR_ABORT	third/dbug/dbug.c	349;"	d	file:
+ERR_CHOWN	third/dbug/dbug.c	350;"	d	file:
+ERR_CLOSE	third/dbug/dbug.c	348;"	d	file:
+ERR_MISSING_RETURN	third/dbug/dbug.c	346;"	d	file:
+ERR_OPEN	third/dbug/dbug.c	347;"	d	file:
+EXISTS	third/dbug/dbug.c	356;"	d	file:
+EXISTS	third/dbug/dbug.c	358;"	d	file:
+EXISTS	third/dbug/dbug.c	361;"	d	file:
+EXPORT	third/dbug/dbug.c	181;"	d	file:
+FALSE	third/dbug/dbug.c	/^	FALSE = 0,$/;"	e	enum:__anon1	file:
+FILE_ON	third/dbug/dbug.c	149;"	d	file:
+FLUSH_ON_WRITE	third/dbug/dbug.c	157;"	d	file:
+FN_LIBCHAR	third/dbug/dbug.c	112;"	d	file:
+FN_REFLEN	third/dbug/dbug.c	113;"	d	file:
+FreeList	third/dbug/dbug.c	/^FreeList(struct link *linkp)$/;"	f	file:	signature:(struct link *linkp)
+FreeList	third/dbug/dbug.c	/^static void FreeList(struct link *linkp);$/;"	p	file:	signature:(struct link *linkp)
+HZ	third/dbug/dbug.c	1898;"	d	file:
+Hanoi	third/dbug/doc/example.c	/^void  Hanoi(int n, char *pDishA, char *pDishB, char *pDishC)$/;"	f	signature:(int n, char *pDishA, char *pDishB, char *pDishC)
+Hanoi	third/dbug/doc/example.c	/^void  Hanoi(int n, char *pDishA, char *pDishB, char *pDishC);$/;"	p	file:	signature:(int n, char *pDishA, char *pDishB, char *pDishC)
+IH	.libs/libdbug.so	/^¨IH€Á,Â@/;"	v
+IH	third/dbug/libdbug.so	/^¨IH€Á,Â@/;"	v
+IMPORT	third/dbug/dbug.c	180;"	d	file:
+INDENT	third/dbug/dbug.c	138;"	d	file:
+InList	third/dbug/dbug.c	/^InList(struct link *linkp, const char *cp)$/;"	f	file:	signature:(struct link *linkp, const char *cp)
+InList	third/dbug/dbug.c	/^static BOOLEAN InList(struct link *linkp, const char *cp);$/;"	p	file:	signature:(struct link *linkp, const char *cp)
+Indent	third/dbug/dbug.c	/^static void Indent(int indent)$/;"	f	file:	signature:(int indent)
+Indent	third/dbug/dbug.c	/^static void Indent(int indent);$/;"	p	file:	signature:(int indent)
+LINE_ON	third/dbug/dbug.c	150;"	d	file:
+LOG_DEBUG	log.h	/^	LOG_DEBUG   = 3,$/;"	e	enum:log_level
+LOG_DEBUG	log.h	53;"	d
+LOG_ERR	log.h	/^	LOG_ERR     = 0,$/;"	e	enum:log_level
+LOG_ERROR	log.h	54;"	d
+LOG_INFO	log.h	/^	LOG_INFO    = 1,$/;"	e	enum:log_level
+LOG_INFO	log.h	51;"	d
+LOG_WARN	log.h	52;"	d
+LOG_WARNING	log.h	/^	LOG_WARNING = 2,$/;"	e	enum:log_level
+ListParse	third/dbug/dbug.c	/^ListParse(char *ctlp)$/;"	f	file:	signature:(char *ctlp)
+ListParse	third/dbug/dbug.c	/^static struct link *ListParse(char *ctlp);$/;"	p	file:	signature:(char *ctlp)
+MAXDEPTH	third/dbug/dbug.c	139;"	d	file:
+NUMBER_ON	third/dbug/dbug.c	153;"	d	file:
+NullS	third/dbug/dbug.c	114;"	d	file:
+O	third/dbug/doc/monty.doc	/^O,logfile   - As in "o,logfile", but do a close and reopen each time anything$/;"	v
+OpenProfile	third/dbug/dbug.c	/^OpenProfile(const char *name)$/;"	f	file:	signature:(const char *name)
+OpenProfile	third/dbug/dbug.c	/^static FILE *OpenProfile(const char *name);$/;"	p	file:	signature:(const char *name)
+PID_ON	third/dbug/dbug.c	155;"	d	file:
+PRINTBUF	third/dbug/dbug.c	137;"	d	file:
+PROCESS_ON	third/dbug/dbug.c	152;"	d	file:
+PROFILE_ON	third/dbug/dbug.c	154;"	d	file:
+PROFILING	third/dbug/dbug.c	161;"	d	file:
+PROF_EFMT	third/dbug/dbug.c	199;"	d	file:
+PROF_FILE	third/dbug/dbug.c	198;"	d	file:
+PROF_SFMT	third/dbug/dbug.c	200;"	d	file:
+PROF_XFMT	third/dbug/dbug.c	201;"	d	file:
+PushState	third/dbug/dbug.c	/^PushState()$/;"	f	file:	signature:()
+PushState	third/dbug/dbug.c	/^static void PushState(void);$/;"	p	file:	signature:(void)
+REGISTER	third/dbug/dbug.c	183;"	d	file:
+RETURN_FAILURE	util.h	20;"	d
+RETURN_SUCCESS	util.h	19;"	d
+SANITY_CHECK_ON	third/dbug/dbug.c	156;"	d	file:
+STREQ	third/dbug/dbug.c	162;"	d	file:
+StrDup	third/dbug/dbug.c	/^StrDup(const char *str)$/;"	f	file:	signature:(const char *str)
+StrDup	third/dbug/dbug.c	/^static char *StrDup(const char *str);$/;"	p	file:	signature:(const char *str)
+THR_my_pthread_mutex_lock_dbug	third/dbug/dbug.c	/^pthread_mutex_t THR_my_pthread_mutex_lock_dbug;$/;"	v
+TRACE_ON	third/dbug/dbug.c	147;"	d	file:
+TRACING	third/dbug/dbug.c	159;"	d	file:
+TRUE	third/dbug/dbug.c	/^	TRUE = (!FALSE)$/;"	e	enum:__anon1	file:
+WRITABLE	third/dbug/dbug.c	362;"	d	file:
+Writable	third/dbug/dbug.c	/^Writable(char *pathname)$/;"	f	file:	signature:(char *pathname)
+Writable	third/dbug/dbug.c	/^static BOOLEAN Writable(char *pathname);$/;"	p	file:	signature:(char *pathname)
+Writable	third/dbug/dbug.c	359;"	d	file:
+_DBUG_START_CONDITION_	third/dbug/dbug.c	122;"	d	file:
+_DBUG_START_CONDITION_	third/dbug/dbug.c	124;"	d	file:
+_VARARGS	third/dbug/dbug.c	111;"	d	file:
+__CONFIG_H__	config.h	12;"	d
+__DRIVER_LOADER_H__	driver_loader.h	12;"	d
+__LOG_H__	log.h	12;"	d
+__UTIL_H__	util.h	12;"	d
+_db_doprnt_	third/dbug/dbug.c	/^_db_doprnt_(const char *format, ...)$/;"	f	signature:(const char *format, ...)
+_db_doprnt_	third/dbug/dbug.c	/^void _db_doprnt_(const char *format, ...);$/;"	p	file:	signature:(const char *format, ...)
+_db_doprnt_	third/dbug/dbug.h	/^    extern void _db_doprnt_(const char *format, ...);$/;"	p	signature:(const char *format, ...)
+_db_dump_	third/dbug/dbug.c	/^_db_dump_(uint _line_, const char *keyword, const char *memory, uint length)$/;"	f	signature:(uint _line_, const char *keyword, const char *memory, uint length)
+_db_dump_	third/dbug/dbug.c	/^void _db_dump_(uint _line_, const char *keyword, const char *memory, uint length);$/;"	p	file:	signature:(uint _line_, const char *keyword, const char *memory, uint length)
+_db_dump_	third/dbug/dbug.h	/^    extern void _db_dump_(uint _line_, const char *keyword,$/;"	p	signature:(uint _line_, const char *keyword, const char *memory, uint length)
+_db_enter_	third/dbug/dbug.c	/^_db_enter_(const char *_func_,$/;"	f	signature:(const char *_func_, const char *_file_, uint _line_, const char **_sfunc_, const char **_sfile_, uint * _slevel_, char ***_sframep_ __attribute__ ((unused)))
+_db_enter_	third/dbug/dbug.c	/^void _db_enter_(const char *_func_, const char *_file_, uint _line_,$/;"	p	file:	signature:(const char *_func_, const char *_file_, uint _line_, const char **_sfunc_, const char **_sfile_, uint * _slevel_, char ***)
+_db_enter_	third/dbug/dbug.h	/^    extern void _db_enter_(const char *_func_, const char *_file_,$/;"	p	signature:(const char *_func_, const char *_file_, uint _line_, const char **_sfunc_, const char **_sfile_, uint * _slevel_, char ***)
+_db_fp_	third/dbug/dbug.c	/^FILE *_db_fp_ = (FILE *) 0;				   \/* Output stream, default stderr *\/$/;"	v
+_db_keyword_	third/dbug/dbug.c	/^_db_keyword_(const char *keyword)$/;"	f	signature:(const char *keyword)
+_db_keyword_	third/dbug/dbug.c	/^int _db_keyword_(const char *keyword);$/;"	p	file:	signature:(const char *keyword)
+_db_keyword_	third/dbug/dbug.h	/^    extern int _db_keyword_(const char *keyword);$/;"	p	signature:(const char *keyword)
+_db_lock_file	third/dbug/dbug.c	/^_db_lock_file()$/;"	f	signature:()
+_db_lock_file	third/dbug/dbug.c	/^void _db_lock_file(void);$/;"	p	file:	signature:(void)
+_db_lock_file	third/dbug/dbug.h	/^    extern void _db_lock_file(void);$/;"	p	signature:(void)
+_db_longjmp_	third/dbug/dbug.c	/^_db_longjmp_()$/;"	f	signature:()
+_db_longjmp_	third/dbug/dbug.c	/^void _db_longjmp_(void);$/;"	p	file:	signature:(void)
+_db_longjmp_	third/dbug/dbug.h	/^    extern void _db_longjmp_(void);$/;"	p	signature:(void)
+_db_on_	third/dbug/dbug.c	/^BOOLEAN _db_on_ = FALSE;				   \/* TRUE if debugging currently on *\/$/;"	v
+_db_pargs_	third/dbug/dbug.c	/^_db_pargs_(uint _line_, const char *keyword)$/;"	f	signature:(uint _line_, const char *keyword)
+_db_pargs_	third/dbug/dbug.c	/^void _db_pargs_(uint _line_, const char *keyword);$/;"	p	file:	signature:(uint _line_, const char *keyword)
+_db_pargs_	third/dbug/dbug.h	/^    extern void _db_pargs_(uint _line_, const char *keyword);$/;"	p	signature:(uint _line_, const char *keyword)
+_db_pfp_	third/dbug/dbug.c	/^FILE *_db_pfp_ = (FILE *) 0;				   \/* Profile stream, 'dbugmon.out' *\/$/;"	v
+_db_pon_	third/dbug/dbug.c	/^BOOLEAN _db_pon_ = FALSE;				   \/* TRUE if profile currently on *\/$/;"	v
+_db_pop_	third/dbug/dbug.c	/^_db_pop_()$/;"	f	signature:()
+_db_pop_	third/dbug/dbug.c	/^void _db_pop_(void);$/;"	p	file:	signature:(void)
+_db_pop_	third/dbug/dbug.h	/^    extern void _db_pop_(void);$/;"	p	signature:(void)
+_db_process_	third/dbug/dbug.c	/^char *_db_process_ = (char *) "dbug";			   \/* Pointer to process name; argv[0] *\/$/;"	v
+_db_push_	third/dbug/dbug.c	/^_db_push_(const char *control)$/;"	f	signature:(const char *control)
+_db_push_	third/dbug/dbug.c	/^void _db_push_(const char *control);$/;"	p	file:	signature:(const char *control)
+_db_push_	third/dbug/dbug.h	/^    extern void _db_push_(const char *control);$/;"	p	signature:(const char *control)
+_db_return_	third/dbug/dbug.c	/^_db_return_(uint _line_,$/;"	f	signature:(uint _line_, const char **_sfunc_, const char **_sfile_, uint * _slevel_)
+_db_return_	third/dbug/dbug.c	/^void _db_return_(uint _line_, const char **_sfunc_,$/;"	p	file:	signature:(uint _line_, const char **_sfunc_, const char **_sfile_, uint * _slevel_)
+_db_return_	third/dbug/dbug.h	/^    extern void _db_return_(uint _line_, const char **_sfunc_,$/;"	p	signature:(uint _line_, const char **_sfunc_, const char **_sfile_, uint * _slevel_)
+_db_setjmp_	third/dbug/dbug.c	/^_db_setjmp_()$/;"	f	signature:()
+_db_setjmp_	third/dbug/dbug.c	/^void _db_setjmp_(void);$/;"	p	file:	signature:(void)
+_db_setjmp_	third/dbug/dbug.h	/^    extern void _db_setjmp_(void);$/;"	p	signature:(void)
+_db_unlock_file	third/dbug/dbug.c	/^_db_unlock_file()$/;"	f	signature:()
+_db_unlock_file	third/dbug/dbug.c	/^void _db_unlock_file(void);$/;"	p	file:	signature:(void)
+_db_unlock_file	third/dbug/dbug.h	/^    extern void _db_unlock_file(void);$/;"	p	signature:(void)
+_dbug_h	third/dbug/dbug.h	76;"	d
+_dig_vec	third/dbug/dbug.c	/^char _dig_vec[] = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";$/;"	v
+_no_db_	third/dbug/dbug.c	/^BOOLEAN _no_db_ = FALSE;				   \/* TRUE if no debugging at all *\/$/;"	v
+_sanity	third/dbug/dbug.c	/^IMPORT int _sanity(const char *file, uint line);$/;"	p	file:	signature:(const char *file, uint line)
+ap	third/dbug/dbug.c	/^	va_list ap;$/;"	v
+append_pair_to_section	config.c	/^static int append_pair_to_section(conf_section_t *section, conf_pair_t *pair)$/;"	f	file:	signature:(conf_section_t *section, conf_pair_t *pair)
+append_section_to_config	config.c	/^static int append_section_to_config(fsmc_config_t *conf, conf_section_t *section)$/;"	f	file:	signature:(fsmc_config_t *conf, conf_section_t *section)
+begin	third/dbug/dbug.c	/^static struct DateStamp begin;$/;"	v	typeref:struct:DateStamp	file:
+bool_t	third/dbug/dbug.c	/^bool_t;$/;"	t	typeref:enum:__anon1	file:
+catalog	log.h	/^	char *catalog; \/* path of log                *\/$/;"	m	struct:st_log_meta	access:public
+close_driver	driver_loader.c	/^static int close_driver(driver_manager *driver)$/;"	f	file:	signature:(driver_manager *driver)
+code_state	third/dbug/dbug.c	/^code_state(void)$/;"	f	file:	signature:(void)
+code_state	third/dbug/dbug.c	415;"	d	file:
+conf_pair	config.h	/^typedef struct conf_pair$/;"	s
+conf_pair::ctext	config.h	/^	char ctext[128];$/;"	m	struct:conf_pair	access:public
+conf_pair::name	config.h	/^	char name[64];$/;"	m	struct:conf_pair	access:public
+conf_pair::next	config.h	/^	struct conf_pair *next;$/;"	m	struct:conf_pair	typeref:struct:conf_pair::conf_pair	access:public
+conf_pair::value	config.h	/^	char value[128];$/;"	m	struct:conf_pair	access:public
+conf_pair_t	config.h	/^} conf_pair_t;$/;"	t	typeref:struct:conf_pair
+conf_section	config.h	/^typedef struct conf_section$/;"	s
+conf_section::name	config.h	/^	char name[64];$/;"	m	struct:conf_section	access:public
+conf_section::next	config.h	/^	struct conf_section *next;$/;"	m	struct:conf_section	typeref:struct:conf_section::conf_section	access:public
+conf_section::pair	config.h	/^	conf_pair_t *pair;$/;"	m	struct:conf_section	access:public
+conf_section::tail	config.h	/^	conf_pair_t *tail;$/;"	m	struct:conf_section	access:public
+conf_section_t	config.h	/^} conf_section_t;$/;"	t	typeref:struct:conf_section
+configuration	config.h	/^typedef struct configuration$/;"	s
+configuration::file	config.h	/^	char file[512];$/;"	m	struct:configuration	access:public
+configuration::fp	config.h	/^	FILE *fp;$/;"	m	struct:configuration	access:public
+configuration::section	config.h	/^	conf_section_t *section;$/;"	m	struct:configuration	access:public
+ctext	config.h	/^	char ctext[128];$/;"	m	struct:conf_pair	access:public
+dbug_flush	third/dbug/dbug.c	/^dbug_flush(CODE_STATE * state)$/;"	f	file:	signature:(CODE_STATE * state)
+dbug_flush	third/dbug/dbug.c	/^static void dbug_flush(CODE_STATE *);$/;"	p	file:	signature:(CODE_STATE *)
+delay	third/dbug/dbug.c	/^	uint delay;						   \/* Delay after each output line *\/$/;"	m	struct:state	file:	access:public
+dl_handle	driver_loader.h	/^	void *dl_handle;$/;"	m	struct:driver_manager	access:public
+driver_func	driver_loader.h	/^typedef struct driver_func$/;"	s
+driver_func	driver_loader.h	/^}driver_func;$/;"	t	typeref:struct:driver_func
+driver_func::func	driver_loader.h	/^	int (*func)();$/;"	m	struct:driver_func	access:public
+driver_func::index	driver_loader.h	/^	int index;$/;"	m	struct:driver_func	access:public
+driver_func::name	driver_loader.h	/^	char *name;$/;"	m	struct:driver_func	access:public
+driver_func_template	driver_loader.c	/^static driver_func driver_func_template[] = {$/;"	v	file:
+driver_manager	driver_loader.h	/^typedef struct driver_manager$/;"	s
+driver_manager	driver_loader.h	/^} driver_manager;$/;"	t	typeref:struct:driver_manager
+driver_manager::dl_handle	driver_loader.h	/^	void *dl_handle;$/;"	m	struct:driver_manager	access:public
+driver_manager::driver_name	driver_loader.h	/^	char *driver_name;$/;"	m	struct:driver_manager	access:public
+driver_manager::errstr	driver_loader.h	/^	char errstr[128];$/;"	m	struct:driver_manager	access:public
+driver_manager::func	driver_loader.h	/^	driver_func *func;$/;"	m	struct:driver_manager	access:public
+driver_name	driver_loader.h	/^	char *driver_name;$/;"	m	struct:driver_manager	access:public
+ds_Days	third/dbug/dbug.c	/^	long ds_Days;					   \/* is incredibly ugly without splitting this *\/$/;"	m	struct:DateStamp	file:	access:public
+ds_Minute	third/dbug/dbug.c	/^	long ds_Minute;					   \/* off into a separate file *\/$/;"	m	struct:DateStamp	file:	access:public
+ds_Tick	third/dbug/dbug.c	/^	long ds_Tick;$/;"	m	struct:DateStamp	file:	access:public
+elapsed	third/dbug/dbug.c	/^static struct DateStamp elapsed;$/;"	v	typeref:struct:DateStamp	file:
+errstr	driver_loader.h	/^	char errstr[128];$/;"	m	struct:driver_manager	access:public
+fd	log.h	/^	int fd;        \/* file decriptor of log file *\/$/;"	m	struct:st_log_meta	access:public
+file	config.h	/^	char file[512];$/;"	m	struct:configuration	access:public
+file	log.h	/^	char *file;    \/* log name                   *\/$/;"	m	struct:st_log_meta	access:public
+file	third/dbug/dbug.c	/^	const char *file;					   \/* Name of current user file *\/$/;"	m	struct:st_code_state	file:	access:public
+file	third/dbug/doc/readme.prof	/^A second program (analyze) reads this file, and produces a report on$/;"	v
+first_clock	third/dbug/dbug.c	/^static int first_clock = TRUE;$/;"	v	file:
+flags	third/dbug/dbug.c	/^	int flags;						   \/* Current state flags *\/$/;"	m	struct:state	file:	access:public
+format	tags	/^!_TAG_FILE_FORMAT	2	\/extended format; --format=1 will not append ;" to lines\/$/;"	v
+format	third/dbug/dbug.c	/^	char *format;$/;"	v
+fp	config.h	/^	FILE *fp;$/;"	m	struct:configuration	access:public
+framep	third/dbug/dbug.c	/^	char **framep;					   \/* Pointer to current frame *\/$/;"	m	struct:st_code_state	file:	access:public
+fsmc_config_t	config.h	/^} fsmc_config_t;$/;"	t	typeref:struct:configuration
+func	driver_loader.h	/^	driver_func *func;$/;"	m	struct:driver_manager	access:public
+func	driver_loader.h	/^	int (*func)();$/;"	m	struct:driver_func	access:public
+func	third/dbug/dbug.c	/^	const char *func;					   \/* Name of current user function *\/$/;"	m	struct:st_code_state	file:	access:public
+functions	third/dbug/dbug.c	/^	struct link *functions;				   \/* List of functions *\/$/;"	m	struct:state	typeref:struct:state::link	file:	access:public
+get_config_pair	config.c	/^conf_pair_t *get_config_pair(const conf_section_t *section, char *name)$/;"	f	signature:(const conf_section_t *section, char *name)
+get_config_pair	config.h	/^conf_pair_t *get_config_pair(const conf_section_t *section, char *name);$/;"	p	signature:(const conf_section_t *section, char *name)
+get_config_section	config.c	/^conf_section_t *get_config_section(const fsmc_config_t *conf, const char *name)$/;"	f	signature:(const fsmc_config_t *conf, const char *name)
+get_config_section	config.h	/^conf_section_t *get_config_section(const fsmc_config_t *conf, const char *name);$/;"	p	signature:(const fsmc_config_t *conf, const char *name)
+get_config_value	config.c	/^int get_config_value(const fsmc_config_t *conf, char *section, char *key, char *value)$/;"	f	signature:(const fsmc_config_t *conf, char *section, char *key, char *value)
+get_config_value	config.h	/^int get_config_value(const fsmc_config_t *conf, char *section, char *key, char *value);$/;"	p	signature:(const fsmc_config_t *conf, char *section, char *key, char *value)
+index	driver_loader.h	/^	int index;$/;"	m	struct:driver_func	access:public
+init_dbug_state	third/dbug/dbug.c	/^init_dbug_state(void)$/;"	f	file:	signature:(void)
+init_dbug_state	third/dbug/dbug.c	414;"	d	file:
+init_done	third/dbug/dbug.c	/^static my_bool init_done = FALSE;			   \/* Set to TRUE when initialization done *\/$/;"	v	file:
+is_blank_line	config.c	/^static int is_blank_line(char *string)$/;"	f	file:	signature:(char *string)
+is_comment_line	config.c	/^static int is_comment_line(char *string)$/;"	f	file:	signature:(char *string)
+is_section	config.c	/^static int is_section(char *string, char *name)$/;"	f	file:	signature:(char *string, char *name)
+jmpfile	third/dbug/dbug.c	/^	const char *jmpfile;				   \/* Remember current file for setjmp *\/$/;"	m	struct:st_code_state	file:	access:public
+jmpfunc	third/dbug/dbug.c	/^	const char *jmpfunc;				   \/* Remember current function for setjmp *\/$/;"	m	struct:st_code_state	file:	access:public
+jmplevel	third/dbug/dbug.c	/^	int jmplevel;					   \/* Remember nesting level at setjmp () *\/$/;"	m	struct:st_code_state	file:	access:public
+keywords	third/dbug/dbug.c	/^	struct link *keywords;				   \/* List of debug keywords *\/$/;"	m	struct:state	typeref:struct:state::link	file:	access:public
+level	log.h	/^	int level;     \/* log base level             *\/$/;"	m	struct:st_log_meta	access:public
+level	third/dbug/dbug.c	/^	int level;						   \/* Current function nesting level *\/$/;"	m	struct:st_code_state	file:	access:public
+lineno	third/dbug/dbug.c	/^	int lineno;						   \/* Current debugger output line number *\/$/;"	m	struct:st_code_state	file:	access:public
+link	third/dbug/dbug.c	/^struct link$/;"	s	file:
+link::next_link	third/dbug/dbug.c	/^	struct link *next_link;				   \/* Pointer to the next link *\/$/;"	m	struct:link	typeref:struct:link::link	file:	access:public
+link::str	third/dbug/dbug.c	/^	char *str;						   \/* Pointer to link's contents *\/$/;"	m	struct:link	file:	access:public
+load_config	config.c	/^int load_config(char *file, fsmc_config_t *conf)$/;"	f	signature:(char *file, fsmc_config_t *conf)
+load_config	config.h	/^int load_config(char *file, fsmc_config_t *conf);$/;"	p	signature:(char *file, fsmc_config_t *conf)
+load_driver	driver_loader.c	/^int load_driver(driver_manager *driver)$/;"	f	signature:(driver_manager *driver)
+locked	third/dbug/dbug.c	/^	int locked;						   \/* If locked with _db_lock_file *\/$/;"	m	struct:st_code_state	file:	access:public
+log_close	log.c	/^int log_close(st_log_meta *meta)$/;"	f	signature:(st_log_meta *meta)
+log_close	log.h	/^int log_close(st_log_meta *meta);$/;"	p	signature:(st_log_meta *meta)
+log_level	log.h	/^enum log_level {$/;"	g
+log_open	log.c	/^int log_open(char *catalog, char *file, enum log_level level, st_log_meta *meta)$/;"	f	signature:(char *catalog, char *file, enum log_level level, st_log_meta *meta)
+log_open	log.h	/^int log_open(char *catalog, char *file, enum log_level level, st_log_meta *meta);$/;"	p	signature:(char *catalog, char *file, enum log_level level, st_log_meta *meta)
+log_write	log.c	/^int log_write(st_log_meta *meta, enum log_level level,$/;"	f	signature:(st_log_meta *meta, enum log_level level, const char *file, const char *func, const int line, const char *fmt, ...)
+log_write	log.h	/^int log_write(st_log_meta *meta, enum log_level level,$/;"	p	signature:(st_log_meta *meta, enum log_level level, const char *file, const char *func, const int line, const char *fmt, ...)
+logger	log.c	/^st_log_meta logger;$/;"	v
+ltrim	util.c	/^void ltrim(unsigned char *str, int len)$/;"	f	signature:(unsigned char *str, int len)
+ltrim	util.h	/^void ltrim(unsigned char *str, int len);$/;"	p	signature:(unsigned char *str, int len)
+mFree	util.h	22;"	d
+main	main.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	third/dbug/doc/example.c	/^int main (void)$/;"	f	signature:(void)
+make_iso8061_timestamp	util.c	/^int make_iso8061_timestamp(char *buffer)$/;"	f	signature:(char *buffer)
+make_iso8061_timestamp	util.h	/^int make_iso8061_timestamp(char *buffer);$/;"	p	signature:(char *buffer)
+max	third/dbug/dbug.c	164;"	d	file:
+maxdepth	third/dbug/dbug.c	/^	int maxdepth;					   \/* Current maximum trace depth *\/$/;"	m	struct:state	file:	access:public
+min	third/dbug/dbug.c	163;"	d	file:
+my_bool	third/dbug/dbug.c	109;"	d	file:
+name	config.h	/^	char name[64];$/;"	m	struct:conf_pair	access:public
+name	config.h	/^	char name[64];$/;"	m	struct:conf_section	access:public
+name	driver_loader.h	/^	char *name;$/;"	m	struct:driver_func	access:public
+name	third/dbug/dbug.c	/^	char name[FN_REFLEN];				   \/* Name of output file *\/$/;"	m	struct:state	file:	access:public
+next	config.h	/^	struct conf_pair *next;$/;"	m	struct:conf_pair	typeref:struct:conf_pair::conf_pair	access:public
+next	config.h	/^	struct conf_section *next;$/;"	m	struct:conf_section	typeref:struct:conf_section::conf_section	access:public
+next_link	third/dbug/dbug.c	/^	struct link *next_link;				   \/* Pointer to the next link *\/$/;"	m	struct:link	typeref:struct:link::link	file:	access:public
+next_state	third/dbug/dbug.c	/^	struct state *next_state;				   \/* Next state in the list *\/$/;"	m	struct:state	typeref:struct:state::state	file:	access:public
+open_conf_file	config.c	/^static FILE *open_conf_file(char *file)$/;"	f	file:	signature:(char *file)
+open_driver	driver_loader.c	/^static int open_driver(driver_manager *driver)$/;"	f	file:	signature:(driver_manager *driver)
+out_file	third/dbug/dbug.c	/^	FILE *out_file;					   \/* Current output stream *\/$/;"	m	struct:state	file:	access:public
+p_functions	third/dbug/dbug.c	/^	struct link *p_functions;				   \/* List of profiled functions *\/$/;"	m	struct:state	typeref:struct:state::link	file:	access:public
+pair	config.h	/^	conf_pair_t *pair;$/;"	m	struct:conf_section	access:public
+pair_new	config.c	/^static conf_pair_t *pair_new(char *name, char *value, char *ctext)$/;"	f	file:	signature:(char *name, char *value, char *ctext)
+parase_conf_file	config.c	/^static int parase_conf_file(fsmc_config_t *conf)$/;"	f	file:	signature:(fsmc_config_t *conf)
+processes	third/dbug/dbug.c	/^	struct link *processes;				   \/* List of process names *\/$/;"	m	struct:state	typeref:struct:state::link	file:	access:public
+prof_file	third/dbug/dbug.c	/^	FILE *prof_file;					   \/* Current profiling stream *\/$/;"	m	struct:state	file:	access:public
+pthread_mutex_lock	third/dbug/dbug.c	416;"	d	file:
+pthread_mutex_unlock	third/dbug/dbug.c	417;"	d	file:
+read_one_line	config.c	/^static int read_one_line(FILE *fp, char *line, int size)$/;"	f	file:	signature:(FILE *fp, char *line, int size)
+rtrim	util.c	/^void rtrim(unsigned char *str, int len)$/;"	f	signature:(unsigned char *str, int len)
+rtrim	util.h	/^void rtrim(unsigned char *str, int len);$/;"	p	signature:(unsigned char *str, int len)
+section	config.h	/^	conf_section_t *section;$/;"	m	struct:configuration	access:public
+section_new	config.c	/^static conf_section_t *section_new(char *name)$/;"	f	file:	signature:(char *name)
+separate_key_value_pair	config.c	/^static int separate_key_value_pair(char *string, conf_pair_t **pair)$/;"	f	file:	signature:(char *string, conf_pair_t **pair)
+st_code_state	third/dbug/dbug.c	/^typedef struct st_code_state$/;"	s	file:
+st_code_state::file	third/dbug/dbug.c	/^	const char *file;					   \/* Name of current user file *\/$/;"	m	struct:st_code_state	file:	access:public
+st_code_state::framep	third/dbug/dbug.c	/^	char **framep;					   \/* Pointer to current frame *\/$/;"	m	struct:st_code_state	file:	access:public
+st_code_state::func	third/dbug/dbug.c	/^	const char *func;					   \/* Name of current user function *\/$/;"	m	struct:st_code_state	file:	access:public
+st_code_state::jmpfile	third/dbug/dbug.c	/^	const char *jmpfile;				   \/* Remember current file for setjmp *\/$/;"	m	struct:st_code_state	file:	access:public
+st_code_state::jmpfunc	third/dbug/dbug.c	/^	const char *jmpfunc;				   \/* Remember current function for setjmp *\/$/;"	m	struct:st_code_state	file:	access:public
+st_code_state::jmplevel	third/dbug/dbug.c	/^	int jmplevel;					   \/* Remember nesting level at setjmp () *\/$/;"	m	struct:st_code_state	file:	access:public
+st_code_state::level	third/dbug/dbug.c	/^	int level;						   \/* Current function nesting level *\/$/;"	m	struct:st_code_state	file:	access:public
+st_code_state::lineno	third/dbug/dbug.c	/^	int lineno;						   \/* Current debugger output line number *\/$/;"	m	struct:st_code_state	file:	access:public
+st_code_state::locked	third/dbug/dbug.c	/^	int locked;						   \/* If locked with _db_lock_file *\/$/;"	m	struct:st_code_state	file:	access:public
+st_code_state::u_keyword	third/dbug/dbug.c	/^	const char *u_keyword;				   \/* Keyword for current macro *\/$/;"	m	struct:st_code_state	file:	access:public
+st_code_state::u_line	third/dbug/dbug.c	/^	uint u_line;					   \/* User source code line number *\/$/;"	m	struct:st_code_state	file:	access:public
+st_log_meta	log.h	/^typedef struct st_log_meta$/;"	s
+st_log_meta	log.h	/^} st_log_meta;$/;"	t	typeref:struct:st_log_meta
+st_log_meta::catalog	log.h	/^	char *catalog; \/* path of log                *\/$/;"	m	struct:st_log_meta	access:public
+st_log_meta::fd	log.h	/^	int fd;        \/* file decriptor of log file *\/$/;"	m	struct:st_log_meta	access:public
+st_log_meta::file	log.h	/^	char *file;    \/* log name                   *\/$/;"	m	struct:st_log_meta	access:public
+st_log_meta::level	log.h	/^	int level;     \/* log base level             *\/$/;"	m	struct:st_log_meta	access:public
+stack	third/dbug/dbug.c	/^static struct state *stack = 0;$/;"	v	typeref:struct:state	file:
+state	third/dbug/dbug.c	/^struct state$/;"	s	file:
+state::delay	third/dbug/dbug.c	/^	uint delay;						   \/* Delay after each output line *\/$/;"	m	struct:state	file:	access:public
+state::flags	third/dbug/dbug.c	/^	int flags;						   \/* Current state flags *\/$/;"	m	struct:state	file:	access:public
+state::functions	third/dbug/dbug.c	/^	struct link *functions;				   \/* List of functions *\/$/;"	m	struct:state	typeref:struct:state::link	file:	access:public
+state::keywords	third/dbug/dbug.c	/^	struct link *keywords;				   \/* List of debug keywords *\/$/;"	m	struct:state	typeref:struct:state::link	file:	access:public
+state::maxdepth	third/dbug/dbug.c	/^	int maxdepth;					   \/* Current maximum trace depth *\/$/;"	m	struct:state	file:	access:public
+state::name	third/dbug/dbug.c	/^	char name[FN_REFLEN];				   \/* Name of output file *\/$/;"	m	struct:state	file:	access:public
+state::next_state	third/dbug/dbug.c	/^	struct state *next_state;				   \/* Next state in the list *\/$/;"	m	struct:state	typeref:struct:state::state	file:	access:public
+state::out_file	third/dbug/dbug.c	/^	FILE *out_file;					   \/* Current output stream *\/$/;"	m	struct:state	file:	access:public
+state::p_functions	third/dbug/dbug.c	/^	struct link *p_functions;				   \/* List of profiled functions *\/$/;"	m	struct:state	typeref:struct:state::link	file:	access:public
+state::processes	third/dbug/dbug.c	/^	struct link *processes;				   \/* List of process names *\/$/;"	m	struct:state	typeref:struct:state::link	file:	access:public
+state::prof_file	third/dbug/dbug.c	/^	FILE *prof_file;					   \/* Current profiling stream *\/$/;"	m	struct:state	file:	access:public
+state::sub_level	third/dbug/dbug.c	/^	int sub_level;					   \/* Sub this from code_state->level *\/$/;"	m	struct:state	file:	access:public
+static_code_state	third/dbug/dbug.c	/^static CODE_STATE static_code_state = { 0, 0, "?func", "?file", NULL, 0, NULL,$/;"	v	file:
+static_strtok	third/dbug/dbug.c	/^static char *static_strtok(char *s1, char chr);$/;"	p	file:	signature:(char *s1, char chr)
+static_strtok	third/dbug/dbug.c	/^static_strtok(char *s1, char separator)$/;"	f	file:	signature:(char *s1, char separator)
+str	third/dbug/dbug.c	/^	char *str;						   \/* Pointer to link's contents *\/$/;"	m	struct:link	file:	access:public
+stream	third/dbug/dbug.c	/^	FILE *stream;$/;"	v
+sub_level	third/dbug/dbug.c	/^	int sub_level;					   \/* Sub this from code_state->level *\/$/;"	m	struct:state	file:	access:public
+tail	config.h	/^	conf_pair_t *tail;$/;"	m	struct:conf_section	access:public
+test_print_tail	config.c	/^int test_print_tail(const fsmc_config_t *conf)$/;"	f	signature:(const fsmc_config_t *conf)
+times	third/dbug/doc/readme.prof	/^sum total of all the times, etc.$/;"	v
+trim_space_character	config.c	/^static int trim_space_character(char *string)$/;"	f	file:	signature:(char *string)
+u_keyword	third/dbug/dbug.c	/^	const char *u_keyword;				   \/* Keyword for current macro *\/$/;"	m	struct:st_code_state	file:	access:public
+u_line	third/dbug/dbug.c	/^	uint u_line;					   \/* User source code line number *\/$/;"	m	struct:st_code_state	file:	access:public
+unload_config	config.c	/^int unload_config(fsmc_config_t *conf)$/;"	f	signature:(fsmc_config_t *conf)
+unload_config	config.h	/^int unload_config(fsmc_config_t *conf);$/;"	p	signature:(fsmc_config_t *conf)
+value	config.h	/^	char value[128];$/;"	m	struct:conf_pair	access:public
+write	third/dbug/doc/readme.prof	/^the code that I write, it isn't necessary.  If you have any good ideas,$/;"	v
+x4	third/dbug/doc/dbug	/^ELF/;"	v
+xcolor	third/dbug/dbug.c	/^static char *xcolor(int level)$/;"	f	file:	signature:(int level)
